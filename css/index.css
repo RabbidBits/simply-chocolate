@@ -1,0 +1,158 @@
+/* Common */
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #111111;
+    background-color: #fafafa;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Nav */
+
+.website-logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 111%;
+    letter-spacing: -0.03em;
+}
+
+.logo-italic {
+    font-style: italic;
+}
+
+.nav-menu {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    letter-spacing: -0.02em;
+}
+
+/* Hero */
+
+.hero-section {
+    background-color: #1E1823;
+}
+
+.main-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 121%;
+    letter-spacing: -0.03em;
+    color: #fafafa;
+}
+
+.hero-buy-btn {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fafafa;
+    background-color: #FD9222;
+}
+
+.hero-how-made-btn {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fafafa;
+}
+
+.hero-scroll-btn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.03em;
+    color: #fafafa;
+}
+
+/* Benefits */
+
+.benefits-section {
+    background-color: #1E1823;
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section-title-span {
+    color: #FD9222;
+}
+
+.benefits-list-title {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fafafa;
+}
+
+.benefits-list-descr {
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Tastes */
+
+.tastes-text {
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.tastes-chocolate-card {
+    background-color: #FD9222;
+}
+
+.tastes-milk-card {
+    background-color: #ffffff;
+}
+
+.tastes-nuts-card {
+    background-color: #1E1823;
+}
+
+.tastes-semisweet-card {
+    background-color: #ffffff;
+}
+
+.tastes-card-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+/* How it's made */
+
+.how-made-list {
+    background-color: #ffffff;
+}
+
+.how-made-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 133%;
+}
+
+.how-made-descr {
+    list-style-type: disc;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+}
