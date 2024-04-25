@@ -7,19 +7,58 @@ body {
 }
 
 ul, ol {
+    margin: 0;
+    padding-left: 0;
+
     list-style-type: none;
 }
 
 a {
-    text-decoration: none;
     color: inherit;
+    text-decoration: none;
 }
 
 button {
     cursor: pointer;
 }
 
+img {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1168px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Nav */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .website-logo {
     font-weight: 700;
@@ -33,19 +72,45 @@ button {
 }
 
 .nav-menu {
+    display: flex;
+    gap: 24px;
+}
+
+.nav-menu-link {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 114%;
     letter-spacing: -0.02em;
 }
 
+.nav-menu-link:hover,
+.nav-menu-link:focus {
+    color: #FD9222;
+}
+
 /* Hero */
+
+.hero-container {
+    max-width: 1200px;
+    padding-top: 381px;
+    padding-bottom: 40px;
+    padding-left: 72px;
+    padding-right: 72px;
+}
 
 .hero-section {
     background-color: #1E1823;
+    border-radius: 30px;
 }
 
 .main-title {
+    max-width: 484px;
+    margin-bottom: 32px;
+
     font-weight: 500;
     font-size: 28px;
     line-height: 121%;
@@ -53,25 +118,64 @@ button {
     color: #fafafa;
 }
 
+.hero-btn-wrapper {
+    display: flex;
+    align-items: center;
+}
+
 .hero-buy-btn {
+    min-width: 144px;
+    height: 45px;
+    padding: 14px 40px;
+    margin-right: 14px;
+
+
     font-weight: 600;
     font-size: 14px;
-    color: #fafafa;
+    color: #ffffff;
     background-color: #FD9222;
+    border: none;
+    border-radius: 100px;
+}
+
+.hero-buy-btn:hover,
+.hero-buy-btn:focus {
+    color: #FD9222;
+    background-color: #fcf1e0;;
 }
 
 .hero-how-made-btn {
+    min-width: 183px;
+    height: 45px;
+    padding: 14px 40px;
+
     font-weight: 600;
     font-size: 14px;
-    color: #fafafa;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+}
+
+.hero-how-made-btn:hover,
+.hero-how-made-btn:focus {
+    color: #FD9222;
+    background-color: #ffffff;
+    border: 1px solid #FD9222;
 }
 
 .hero-scroll-btn {
+    margin-left: auto;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 129%;
     letter-spacing: -0.03em;
-    color: #fafafa;
+    color: #ffffff;
+}
+
+.hero-scroll-btn:hover,
+.hero-scroll-btn:focus {
+    color: #FD9222;
 }
 
 /* Benefits */
